@@ -83,7 +83,13 @@
 
 
 @media (min-width: 1025px ) and (max-width:1280px ) {
-				
+			
+			.container{
+			width: 90vw;
+			height: 95vh;
+			border: 1px solid rgba(255, 255, 255, 0.3);
+			border-radius: 45px;
+			margin: 0;
 		}
 
 
