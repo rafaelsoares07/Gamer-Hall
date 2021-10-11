@@ -1,4 +1,4 @@
-	@media (min-width: 320px ) and (max-width:479px ) {
+	@media (min-width: 320px ) and (max-width:494px ) {
 	
 		.quadrado1,.quadrado2,.quadrado3{
 				display: none;
@@ -28,6 +28,7 @@
 		
 		.avatar{
 			width: 175px;
+
 		}
 
 		.btn-jogar{
@@ -41,20 +42,25 @@
 
 
 
-@media (min-width: 480px ) and (max-width:599px ) {
+@media (min-width: 495px ) and (max-width:599px ) {
+			.quadrado1,.quadrado2,.quadrado3{
+				display: none;
+			}
+
+		
+
+		}
+
+
+
+@media (min-width: 600px ) and (max-width:850px ) {
 					
 		}
 
 
 
-@media (min-width: 600px ) and (max-width:800px ) {
-					
-		}
 
-
-
-
-@media (min-width: 801px ) and (max-width:1024px ) {
+@media (min-width: 851px ) and (max-width:1024px ) {
 					
 		}
 
@@ -62,14 +68,25 @@
 
 
 @media (min-width: 1025px ) and (max-width:1280px ) {
-					
+				
 		}
 
 
 
 
-@media (min-width: 1281px ) and (max-width:479px ) {
-					
+@media (min-width: 1281px ){  
+		
+		
 		}
 
+
+
+
+
+
+@keyframes opacidade{
+	to{
+		opacity: 0.75;
+	}
+}
 
