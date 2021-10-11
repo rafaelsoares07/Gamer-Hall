@@ -209,7 +209,9 @@
 
 	.cardsJogos{
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-evenly;
+		flex-wrap: wrap;
+
 		margin: 0 auto;
 		width: 80%;
 		padding: 5px;
@@ -222,6 +224,7 @@
 		box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
 		border: 1px solid rgba(255, 255, 255, 0.3);
 		cursor: pointer;
+		margin-top: 15px;
 
 	}
 
@@ -257,7 +260,3 @@
 	}
 
 
-
-	progress{
-		
-	}
